@@ -201,7 +201,7 @@ export class Client {
     this.messageParser.on('message', this._handleSendResponse.bind(this));
   }
 
-  public get isConnected(): boolean {
+  public isConnected(): boolean {
     return this.connected;
   }
 
