@@ -7,7 +7,6 @@
 .netbeans
 
 tests
-src
 
 tsconfig.lint.json
 tslint.json
